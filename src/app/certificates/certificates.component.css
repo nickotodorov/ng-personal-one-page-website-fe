@@ -1,0 +1,28 @@
+img{
+    width: 32px;
+}
+.certificates li {
+    margin: 30px;
+    padding: 10px;
+    list-style: none;
+    max-width: 600px;
+    background: #f0f0f0;
+    opacity: 0.8;
+}
+.certificates li img{
+    padding: 10px;
+}
+#certificates {
+    background: rgb(24, 24, 24);
+}
+h2 {
+    color: #fff; 
+}
+p {
+    color: #858585;
+}
+@media screen and (min-width: 768px) {
+   .certificates {
+       margin-left: 260px;
+   } 
+}

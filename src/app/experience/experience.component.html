@@ -1,0 +1,195 @@
+<section class="secPad " *ngIf="Experience" id="experience" [@scrollAnimation]="state">
+    <div class="container">
+        <div
+            class="heading text-center">
+            <!-- Heading -->
+            <h2>Working Experience & Education</h2>
+            <p>During the past 7 years I had the chance to work side by side with some great minds and gain a valuable experience 
+              and knowedge  not only in process of software development  but also about life. </p>
+        </div>
+        <div id="timeline">
+            <div class="row timeline-movement timeline-movement-top">
+                <div class="timeline-badge timeline-future-movement">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </a>
+                </div>
+                <div class="timeline-badge timeline-filter-movement">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="row timeline-movement">
+
+                <div class="timeline-badge"></div>
+
+
+                <div class="col-sm-6  timeline-item">
+                    <div class="row">
+                        <div class="col-sm-11">
+                            <div class="timeline-panel credits">
+                                <ul class="timeline-panel-ul">
+                                    <img src="/assets/images/bulpros.png"/>
+                                    <li>
+                                        <span class="">{{ Experience.Experiences[0].CompanyName }}</span>
+                                    </li>
+                                    <li>
+                                        <span class="causale">{{ Experience.Experiences[0].Designation }}
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <small class="text-muted">
+                                                {{ Experience.Experiences[0].Duration }}</small>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--due -->
+
+            <div class="row timeline-movement">
+
+
+                <div class="timeline-badge"></div>
+
+                <div class="col-sm-offset-6 col-sm-6  timeline-item">
+                    <div class="row">
+                        <div class="col-sm-offset-1 col-sm-11">
+                            <div class="timeline-panel debits">
+                                <ul class="timeline-panel-ul">
+                                    <img src="/assets/images/taxback.png"/>
+                                    <li>
+                                        <span class="">{{ Experience.Experiences[1].CompanyName }}</span>
+                                    </li>
+                                    <li>
+                                        <span class="causale">{{ Experience.Experiences[1].Designation }}
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <small class="text-muted">
+                                                {{ Experience.Experiences[1].Duration }}
+                                            </small>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row timeline-movement">
+
+
+                <div class="timeline-badge"></div>
+
+
+                <div class="col-sm-6  timeline-item">
+                    <div class="row">
+                        <div class="col-sm-11">
+                            <div class="timeline-panel credits">
+                                <ul class="timeline-panel-ul">
+                                    <img src="/assets/images/whisperingbell.png"/>
+                                    <li>
+                                        <span class="">{{ Experience.Experiences[2].CompanyName }}</span>
+                                    </li>
+                                    <li>
+                                        <span class="causale">{{ Experience.Experiences[2].Designation }}
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <small class="text-muted">
+                                                {{ Experience.Experiences[2].Duration }}
+                                            </small>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            
+            <div class="row timeline-movement">
+
+
+                <div class="timeline-badge"></div>
+
+                <div class="col-sm-6  timeline-item">
+                    <div class="row">
+                        <div class="col-sm-11">
+                            <div class="timeline-panel credits">
+                                <ul class="timeline-panel-ul">
+                                    <img src="/assets/images/eurorisk.png" style="width: 100px;height:auto;"/>
+                                    <li>
+                                        <span class="">{{ Experience.Experiences[3].CompanyName }}</span>
+                                    </li>
+                                    <li>
+                                        <span class="causale">{{ Experience.Experiences[3].Designation }}
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <small class="text-muted">
+                                                {{ Experience.Experiences[3].Duration }}
+                                            </small>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-badge"></div>
+
+                <div class="col-sm-offset-6 col-sm-6  timeline-item">
+                    <div class="row">
+                        <div class="col-sm-offset-1 col-sm-11">
+                            <div class="timeline-panel debits">
+                                <ul class="timeline-panel-ul">
+                                    <img src="/assets/images/tuv.png" style="width: 100px;height:auto;"/>
+                                    <li>
+                                        <span class="">{{ Experience.Education[0].Graduation[0].University }}</span>
+                                    </li>
+                                    <li>
+                                        <span class="causale">{{ Experience.Education[0].Graduation[0].Specialty }}
+                                            /
+                                            {{ Experience.Education[0].Graduation[0].Degree }}</span>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <small class="text-muted">
+                                                {{ Experience.Education[0].Graduation[0].Year }}
+                                            </small>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>

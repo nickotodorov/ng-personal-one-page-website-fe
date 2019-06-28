@@ -1,0 +1,33 @@
+.social a {
+    color: #fff;
+    
+}
+.social {
+    margin-top:200px; 
+}
+
+.da-slide h2{width: auto;}
+.da-slide {
+    position: relative;
+}
+/*.da-slide p{margin-left: 30px;}
+*/
+@media screen and (min-width: 768px) {
+    .da-slide h2{top:160px;}
+    
+}
+#da-slider {
+        height: 789px; 
+    }
+@media (max-width: 480px){
+    .da-slide h2 {
+        font-size: 22px;
+        top: 100px;
+    }
+    .social {
+        margin-top:120px; 
+    }
+}
+#nav-toggle {
+    display: none;
+}

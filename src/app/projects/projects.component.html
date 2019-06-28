@@ -1,0 +1,28 @@
+<section id="portfolio" *ngIf="WebProjects" class="page-section section appear clearfix secPad " >
+  <div class="container" [@scrollAnimation]="state">
+      <div class="heading text-center">
+          <!-- Heading -->
+          <h2>{{ Projects.heading}}</h2>
+          <p>{{ Projects.subheading}}</p>
+      </div>
+      <div class="row">      
+          <div class="col-md-12"  *ngIf="Projects">
+              <div class="row">
+                  <div class="portfolio-items isotopeWrapper clearfix isotope" id="3" style="position: relative; overflow: hidden;">          
+                        <article *ngFor="let value  of WebProjects" class="col-sm-4 isotopeItem webdesign isotope-item">ss
+                                <div class="portfolio-item">
+                                        <img src="/assets/images/portfolio/{{ value.image }}" alt="">
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="" class="fancybox">
+                                                    <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </article>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

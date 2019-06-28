@@ -1,0 +1,16 @@
+<section id="certificates" class="secPad " *ngIf="Certificates" >
+    <div class="container" [@scrollAnimation]="state">
+        <div class="heading text-center">
+            <h2>{{Certificates.courses}}</h2>
+            <p> {{Certificates.description}}<br>{{Certificates.subDescription}}</p>
+        </div>
+        <div class="row">
+            <ul class="certificates">
+                <li  *ngFor="let value  of Courses"> 
+                    <img src="/assets/images/udemy.png"/>
+                    {{ value.course_name }} 
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

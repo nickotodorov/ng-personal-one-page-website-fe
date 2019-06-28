@@ -1,0 +1,55 @@
+{
+    "id": 1,
+    "courses": "Online Courses",
+    "description": "Dedicating serious amount of time to complete various online courses and tutorials",
+    "udemy": [
+        {
+            "id": 1,
+            "course_name": "Building Enterprise Architecture Services a Kick Start Guide"
+        },
+        {
+            "id": 2,
+            "course_name": "Docker for beginners"
+        },
+        {
+            "id": 3,
+            "course_name": "Getting Started with TypeScript"
+        },
+        {
+            "id": 4,
+            "course_name": "GraphQL - A Primer"
+        },
+        {
+            "id": 5,
+            "course_name": "Intro to PHP Web Application Development with Symfony"
+        },
+        {
+            "id": 6,
+            "course_name": "Introduction To Parallel Test Execution with Selenium"
+        },
+        {
+            "id": 7,
+            "course_name": "Learn Angular 4 from Scratch"
+        },
+        {
+            "id": 8,
+            "course_name": "Learn Drupal 8 module development with examples"
+        },
+        {
+            "id": 9,
+            "course_name": "Lumen Microservices: Create your Services or APIs with Lumen"
+        },
+        {
+            "id": 10,
+            "course_name": "MongoDB Essentials - Understand the Basics of MongoDB"
+        },
+        {
+            "id": 11,
+            "course_name": "The basics of test-driven development by building an Angular application"
+        },
+        {
+            "id": 12,
+            "course_name": "MongoDB and Python: Quick start"
+        }
+    ]
+}

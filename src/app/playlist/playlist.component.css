@@ -1,0 +1,17 @@
+.playlist li {
+    margin: 30px;
+    padding: 10px;
+    list-style: none;
+    background: #6d6d6d80;
+    color: #f0f0f0;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+    .playlist {
+        margin-left: 260px;
+    } 
+    .playlist li {
+        max-width: 600px;
+    }
+ }

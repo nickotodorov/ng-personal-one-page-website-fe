@@ -1,0 +1,16 @@
+<section id="playlist" class="secPad "  *ngIf="Playlist" [@scrollAnimation]="state">
+        <div class="container">
+            <div class="heading text-center">
+                <h2>{{Playlist.about}}</h2>
+                <p> {{Playlist.description}}</p>
+            </div>
+            <div class="row">
+                <ul class="playlist">
+                    <li  *ngFor="let value  of Tracks"> 
+                        <a  href="#todo"><img src="/assets/images/play.png"/></a> 
+                        {{ value.title }} 
+                    </li>
+                </ul>
+            </div>
+        </div>
+</section>

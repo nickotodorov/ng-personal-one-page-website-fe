@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { EventemitterService } from '../eventemitter.service';
+import * as $ from 'jquery';
+import anime from 'animejs/lib/anime.es';
+
 
 @Component({
   selector: 'app-header',
@@ -13,6 +16,21 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit() {
+    //wrap any logo letter with span element to animate it separately
+    $('.ml3').each(function () {
+      $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+    });
+    var logo = anime.timeline({ autoplay: true });
+    logo.add({
+      targets: '.ml3 .letter',
+      opacity: [0, 1],
+      easing: "easeInOutQuad",
+      duration: 2250,
+      delay: function (el, i) {
+        return 150 * (i + 1)
+      }
+    });
+    logo.play();
     if (this.eventEmitterService.subsVar == undefined) {
       this.eventEmitterService.subsVar = this.eventEmitterService.
         invokeFirstComponentFunction.subscribe((name: string) => {

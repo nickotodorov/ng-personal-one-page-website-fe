@@ -1,3 +1,12 @@
+.header .navbar-brand {
+    font-family:'Pacifico', cursive!important;
+    font-weight: 400;
+    background-color: transparent !important;
+  }
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
 .social a {
     color: #fff;
     
@@ -10,15 +19,22 @@
 .da-slide {
     position: relative;
 }
+#da-slider {
+    height: 789px; 
+}
 /*.da-slide p{margin-left: 30px;}
 */
 @media screen and (min-width: 768px) {
     .da-slide h2{top:160px;}
     
 }
-#da-slider {
-        height: 789px; 
+@media screen and (max-width: 768px) {
+  
+    #da-slider {
+        height: 289px; 
     }
+}
+
 @media (max-width: 480px){
     .da-slide h2 {
         font-size: 22px;
@@ -30,4 +46,4 @@
 }
 #nav-toggle {
     display: none;
-}
+}  

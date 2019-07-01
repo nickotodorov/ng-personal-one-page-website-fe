@@ -232,7 +232,7 @@ background: none;
     /*color:#CC4646;*/;
 }
 
-.navbar-brand b {
+.navbar-brand span{
     color: #fff;
 	font-family: 'Pacifico', cursive;
 	font-weight:400;

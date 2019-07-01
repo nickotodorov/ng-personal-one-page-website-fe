@@ -1,0 +1,54 @@
+{
+	"Experiences": [
+		{
+			"id": 1,
+			"CompanyName": "Bulpros",
+			"Designation": "Software Developer",
+			"Duration": "Apr 2019 - Current"
+		},
+		{
+			"id": 2,
+			"CompanyName": "Taxback",
+			"Designation": "Web Developer",
+			"Duration": "May 2014 - Apr 2019"
+		},
+		{
+			"id": 3,
+			"CompanyName": "Whispering Bell",
+			"Designation": "Junior Web Developer",
+			"Duration": "Jun 2012 - Feb 2014"
+		},
+		{
+			"id": 4,
+			"CompanyName": "Eurorisk Systems",
+			"Designation": "Internship Trainee / java desktop development",
+			"Duration": "Apr 2010"
+		}
+	],
+	"Education": [
+		{
+			"Graduation": [
+				{
+					"id": 1,
+					"EducationCategoryId_id": 1,
+					"University": "Technical University Varna",
+					"Specialty": "Computer Systems and Technologies",
+					"Degree": "BE",
+					"Year": "2008-2012"
+				}
+			]
+		},
+		{
+			"HSC": [
+				{
+					"id": 2,
+					"EducationCategoryId_id": 2,
+					"University": "High School of Mathematics & Informatics Akademik",
+					"Specialty": "Mathematics , Informatics",
+					"Degree": "HSC",
+					"Year": "2003-2008"
+				}
+			]
+		}
+	]
+}

@@ -10,7 +10,6 @@ import {
   transition
 } from '@angular/animations';
 
-import { HeaderComponent } from '../header/header.component';
 import { ScrollerService } from '../scroller.service';
 import { DataService } from '../data.service';
 

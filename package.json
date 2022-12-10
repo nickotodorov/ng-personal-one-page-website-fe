@@ -29,7 +29,7 @@
     "@types/animejs": "^2.0.2",
     "@types/jquery": "^3.3.30",
     "animejs": "^3.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jquery": "^3.5.0",
     "path": "^0.12.7",
     "rxjs": "~6.4.0",
